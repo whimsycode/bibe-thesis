@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+
+        <title>
+            
+        
+        </title>
+
+        <meta charset="utf-8">
+
+
+        <!--Scripts-->
+        <script type = "text/javascript" src="script.js"></script>
+        
+        <!--Boostrap-->
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+        <!--Icon-->
+
+        <!--<link rel = "icon" href = "filename.png">-->
+
+        <!--Styles-->
+
+        <link href="main_styles.css" rel="stylesheet" type="text/css">
+
+
+    </head>
+
+    <body onload = "renderClock();">
+
+        <!--Heading-->
+        <div class = "container-fluid">
+
+            <div class = "row">
+
+                <div class = "heading">
+
+                    <img src = "Assets/LOGO.png" height = "40" width = "200" />
+    
+                </div>
+
+            </div>
+
+        </div>
+
+        <br/>
+
+        <!--Contents-->
+
+        <div class = "container-fluid">
+             
+            <!--Video Streams-->
+
+            <div class = "row">
+
+                <div class="col-sm-6 col-md-6 col-lg-6">
+                    
+                    <img src = "Assets/videoplaceholder.png" height = "310" width = "700" /> 
+                    <br/>
+                    <img src = "Assets/videoplaceholder.png" height = "310" width = "700" />
+
+                </div>
+
+                <!--Data View-->
+
+                <div class="col-sm-6 col-md-6 col-lg-6" style = "color:white";>
+                    
+                    <!--Heading-->
+                    Crowd Monitoring System
+                    <br/>
+
+                    <!--Time and Date-->
+                    <div id = "timeDisplay" class = "container"></div>
+                    <div id = "dateDisplay" class = "container"></div>
+                    
+                    <br/>
+
+                    <!--Data-->
+                    
+                    <table>
+
+                        <form>
+
+                            <!--Area-->
+                            <tr>
+                                <td>
+
+                                </td>
+                            </tr>
+
+                            <!--Density Number Display-->
+                            <input type = "text" id = "numDensity" name = "numDensity" >
+    
+                            <!--Density Level-->
+                            <input type = "text" id = "cDensity" name = "cDensity" >
+    
+                            <!--Status-->
+                            <input type = "text" id = "status" name = "status" >
+    
+    
+                        </form>
+
+                    </table>
+                    
+
+                    
+
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+    
+
+    </body>
+    
+</html>
