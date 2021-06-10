@@ -1,4 +1,6 @@
 /*main page styles*/
+
+/*Body Elements*/
 body {
 
 background-color: #08080C;
@@ -11,8 +13,16 @@ background-color: #08080C;
     background-color:#000022;
 }
 
-.container {
 
-    padding:10px;
-    margin:0;
+/*Table*/
+td {
+    color:#000;
+    background-color:#FFF;
+    padding:5px;
+    border: solid 2px pink;
+}
+
+/*Button*/
+button {
+    width:100%;
 }

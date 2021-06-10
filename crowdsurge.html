@@ -50,6 +50,7 @@
             </div>
 
         </div>
+        <!--End Heading-->
 
         <br/>
 
@@ -73,14 +74,38 @@
 
                 <div class="col-sm-6 col-md-6 col-lg-6" style = "color:white";>
                     
-                    <!--Heading-->
-                    Crowd Monitoring System
+                    
                     <br/>
 
-                    <!--Time and Date-->
-                    <div id = "timeDisplay" class = "container"></div>
-                    <div id = "dateDisplay" class = "container"></div>
+                    <!--Information Table-->
+                    <table>
+
+                        <!--Heading-->
+                        <tr>
+                            <td>
+                                <h1>Crowd Monitoring System</h1>
+                            </td>
+                        </tr>
+                        <!--End Heading-->
+
+                        <!--Time and Date-->
+                        <tr>
+                            <td>
+                                <div id = "timeDisplay"></div>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <div id = "dateDisplay"></div>
+                            </td>
+                        </tr>
+                        <!--End Time and Date-->
+
+                    </table>
+                    <!--End Information Table-->
                     
+
                     <br/>
 
                     <!--Data-->
@@ -92,34 +117,73 @@
                             <!--Area-->
                             <tr>
                                 <td>
+                                    <label for="areaNum">AREA</label>
+                                </td>
 
+                                <td colspan = 2>
+                                    <button class = "button">SEND ALERT</button>
                                 </td>
                             </tr>
+                            <!--End Area-->
 
                             <!--Density Number Display-->
-                            <input type = "text" id = "numDensity" name = "numDensity" >
-    
+                            <tr>
+                                <td>
+                                    <label for="numDensity">DENSITY</label>
+                                </td>
+
+                                <td>
+                                    <input type = "text" id = "numDensity" name = "numDensity" disabled >
+
+                                </td>
+                                
+                            </tr>
+                            <!--End Density Number Display-->
+
                             <!--Density Level-->
-                            <input type = "text" id = "cDensity" name = "cDensity" >
-    
+                            <tr>
+                                <td>
+                                    <label for="cDensity">LEVEL</label>
+                                </td>
+
+                                <td>
+                                    <input type = "text" id = "cDensity" name = "cDensity" disabled >
+
+                                </td>
+                                
+                            </tr>
+                            <!--End Density Level-->
+
                             <!--Status-->
-                            <input type = "text" id = "status" name = "status" >
-    
+                            <tr>
+                                <td>
+                                    <label for="cStatus">STATUS</label>
+                                </td>
+
+                                <td>
+                                    <input type = "text" id = "cStatus" name = "cStatus" disabled >
+
+                                </td>
+                                
+                            </tr>
+                            <!--End Status-->
     
                         </form>
+                        <!--End Form-->
 
                     </table>
+
+                    <!--End Table-->
                     
-
-                    
-
-
                 </div>
+                <!--End Data Column-->
 
 
             </div>
+            <!--End Row-->
 
         </div>
+        <!--End Contents-->
 
     
 
