@@ -61,9 +61,9 @@ function renderClock() {
 
         //Display
 
-        var myTime = document.getElementById("timeDisplay");
-        myTime.textContent = hrs + ":" + mins + ":" + sec;
-        myTime.innerText =  hrs + ":" + mins + ":" + sec;
+        //var myTime = document.getElementById("timeDisplay");
+       // myTime.textContent = hrs + ":" + mins + ":" + sec;
+       // myTime.innerText =  hrs + ":" + mins + ":" + sec;
 
        var myDate = document.getElementById("dateDisplay");
        myDate.textContent = dayarray[day] + ", " + dayMonth + "/" + month + "/" + year;
