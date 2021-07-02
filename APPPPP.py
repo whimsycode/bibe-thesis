@@ -79,6 +79,7 @@ def index():
     a = senddata()
     n1 = a [0][-1][0]
     n2 = a [1][-1][0]
+    
 
     return render_template('index.php', numPeople1=n1, numPeople2=n2)
 
